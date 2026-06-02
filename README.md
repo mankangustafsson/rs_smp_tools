@@ -70,7 +70,8 @@ Configuration: `pyproject.toml` (ruff + mypy settings)
 
 ## Related Projects
 
-- [**rs_smp_ocr**](https://github.com/manka/rs_smp_ocr) — OCR and PDF parsing for SMP02 documentation
+- [**rs_smp_ocr**](https://github.com/mankangustafsson/rs_smp_ocr) — OCR and PDF parsing for SMP02 documentation
+- [**rs_smp_a21_repair**](https://github.com/mankangustafsson/rs_smp_a21_repair) — KiCAD files for A21 PA stage replacement board
 
 ## License
 
