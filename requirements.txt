@@ -1,0 +1,9 @@
+# Requirements for RS SMP Tools
+# GPIB-based test and diagnostic scripts for Rohde & Schwarz SMP02 signal generator
+
+# GPIB device control
+pyvisa>=1.14
+
+# Quantity parsing with unit support (Hz, MHz, GHz, dBm, etc.)
+# Required by smp_cw.py for command-line frequency/power parsing
+quantiphy>=2.19

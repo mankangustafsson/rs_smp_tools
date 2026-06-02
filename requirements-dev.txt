@@ -1,0 +1,11 @@
+# Development dependencies for RS SMP Tools
+# Code quality: linting, formatting, and type checking
+
+# Linting and code formatting
+ruff>=0.6
+
+# Static type checking
+mypy>=1.14
+
+# Type stubs for pyvisa (if available; not always present in typeshed)
+# types-pyvisa
