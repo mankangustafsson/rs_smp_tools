@@ -25,9 +25,9 @@ DEEP_FREQS_MHZ = sorted(
 class SmpTest:
     """Base class for SMP02 functional tests."""
 
-    name = ""
-    desc = ""
-    option = None
+    name: str = ""
+    desc: str = ""
+    option: str | None = None
 
     def __init__(self, dev, deep=False, installed=None):
         self.dev = dev
@@ -1831,11 +1831,11 @@ if __name__ == "__main__":
             order = list(MODULES.keys())
             selected = sorted(args.module, key=order.index)
 
-        passed = []
-        failed = []
-        skipped = []
-        deep_passed = []
-        deep_failed = []
+        passed: list[str] = []
+        failed: list[str] = []
+        skipped: list[str] = []
+        deep_passed: list[str] = []
+        deep_failed: list[str] = []
 
         for name in selected:
             cls = MODULES[name]
