@@ -78,9 +78,7 @@ def main() -> int:
             )
         )
 
-    results.append(
-        ("mypy .", _run("mypy .", [py, "-m", "mypy", "."]))
-    )
+    results.append(("mypy .", _run("mypy .", [py, "-m", "mypy", "."])))
 
     print("\n=== summary ===")
     for label, ok in results:
